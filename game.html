@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TYPE!</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="game.css">
+    <link rel="icon" href="img/favicon.ico" type="img/png">
+</head>
+<body>
+
+    <div class="container">
+        <div class="content">
+            <header>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/Type!.png" class="mainLogo">
+                    </a>
+                </div>
+            </header>
+
+            <div class="container1">
+
+                <div class="screen">
+
+                    <div class="screenImg">
+                        <img src="img/Balance.png" class="balance">
+                        <img src="img/TG.png" class="logoTg">
+                    </div>
+
+                    <div class="screenType">
+                        <p class="typeS">밸런스 게임으로 찾는 나의 이상형 게임</p>
+                        <p class="typeS">타이핑<span class="pink">Typing</span>으로 만나보는 나의 <span class="pink">Type Girl!</span></p>
+                    </div>
+
+                <main>
+
+                    <div id="user-info-container">
+                        <img src="img/mytypegirl2.png">
+                        <input type="text" id="user-name" placeholder="Name" required>
+                        <input type="text" id="user-contact" placeholder="Contact/Instagram ID" required>
+                        <button id="start-game-btn" onclick="startGame()">Start</button>
+                    </div>
+
+                    <div id="quiz-container" class="hidden">
+                        <div id="game-container">
+                            <div id="question-container"></div>
+                            <div id="choices-container"></div>
+                            <div id="navigation-buttons">
+                                <button id="prev-btn" onclick="previousQuestion()" disabled>Previous</button>
+                                <button id="next-btn" onclick="nextQuestion()">Next</button>
+                            </div>
+                        </div>
+
+                        <div id="result-container" class="hidden">
+                            <div id="typeGirl">
+                                <h2 id="result-title"></h2>
+                                <div id="result-content"></div>
+                            </div>
+
+                            <div class="typeResult">
+                                <p id="result-analysis"></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+
+        <div class="layoutF1">
+
+            <div class="footerContent1">
+                <a href="index.html"><img src="img/footerlogo.png" class="logoF"></a>
+                <p class="copy">Copyright © 2024 <span class="bold">My Type Girl</span></p>
+
+                <div class="foot2">
+                    <div class="indexF">
+                        <a href="index.html">Home |</a>
+                        <a href="game.html">Game |</a>
+                        <a href="play.html">How to Play |</a>
+                        <a href="about.html">About</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footerContent2">
+
+                <div class="F2">
+                    <div class="foot3">
+                        <p class="titleF">Programmer</p>
+                        <div class="foot4">
+                            <p class="contentF">심민지&nbsp;<span class="small">Shim Min Ji</span></p>
+                        </div>
+                    </div>
+
+                    <div class="foot3">
+                        <p class="titleF">Contact</p>
+                        <div class="foot4">
+                            <p class="contentF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@yenycall</p>
+                            <p class="contentF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;yenycall@kaywon.ac.kr</p>
+                        </div>
+                    </div>
+
+                    <div class="foot3">
+                        <p class="titleF">Address</p>
+                        <div class="foot4">
+                            <p class="contentF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kaywon Art & Design</p>
+                            <p class="contentF"><span class="small">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;경기도 의왕시 계원대학로 66</span> | Republic of Korea</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="common.js"></script>
+</body>
+</html>

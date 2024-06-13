@@ -1,0 +1,83 @@
+.logoBig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logoBig img {
+    width: 24rem;
+    height: auto;
+
+}
+
+.mainContent{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+main {
+    height: 85vh;
+    position: relative;
+    display: flex;
+}
+
+.font{
+    font-size: 2rem;
+    font-family: 'PT Banana Split', serif;
+    color: #ffffff;
+    z-index: 2;
+    margin-top: -10rem;
+}
+
+.font:hover{
+    color:#ff0080;
+}
+
+.btnWrap {
+    width: 50%;
+    margin: 5rem auto;
+    position: relative;
+}
+
+.btnWrap img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.btnText {
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heart1{
+    position: absolute;
+    top: 11.5%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+}
+
+.heart1 img{
+    width: 7rem;
+    transform: rotate(-25deg);
+}
+
+.heart2{
+    position: absolute;
+    top: 78%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.heart2 img{
+    width: 15rem;
+    transform: rotate(32deg);
+    -webkit-filter: blur(8px);
+}
+
